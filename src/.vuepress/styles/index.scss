@@ -1,1 +1,31 @@
 // place your custom styles here
+
+
+.vp-project-panel {
+    /* 设置左边距为-16px */
+    margin-left: -16px;
+    /* 设置上边距为-6px */
+    margin-top: -6px;
+
+    a {
+        &:hover {
+            /* 鼠标悬浮时去掉链接的下划线 */
+            text-decoration: none;
+        }
+    }
+
+    .vp-project-card {
+        /* 设置上、右、下、左边距为6px、0、6px、16px */
+        margin: 6px 0 6px 16px;
+
+        .vp-project-image {
+            /* 设置边框圆角为50% */
+            border-radius: 50%;
+        }
+    }
+
+    .language-yaml {
+        /* 隐藏具有 language-yaml 类的元素 */
+        display: none;
+    }
+}
