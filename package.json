@@ -11,7 +11,7 @@
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@types/js-yaml": "^4.0.9",
+    "@types/js-yaml": "4.0.9",
     "@types/markdown-it": "^13.0.7",
     "@vuepress/client": "2.0.0-rc.0",
     "@vuepress/plugin-container": "2.0.0-rc.0",
@@ -21,6 +21,6 @@
     "vuepress-theme-hope": "2.0.0-rc.11"
   },
   "dependencies": {
-    "js-yaml": "^4.1.0"
+    "js-yaml": "4.1.0"
   }
 }

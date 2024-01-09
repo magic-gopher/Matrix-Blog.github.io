@@ -6,3 +6,5 @@ export const BaseURI = "/blog/"
 export const Description = "一个后端菜鸟"
 // favicon
 export const Favicon = "/blog/go.svg"
+// blog主页logo
+export const BlogIndexLogo = "/go.svg"

@@ -3,6 +3,7 @@ import { zhNavbar } from "../navbar/zh.js";
 import { zhSidebar } from "../sidebar/index.js";
 import { AuthorName, Description } from "../utils/constant.js";
 import { themePlugins } from "./plugins.js";
+import { BlogIndexLogo } from "../utils/constant"
 
 export default hopeTheme({
 
@@ -13,7 +14,7 @@ export default hopeTheme({
   iconAssets: "iconfont",
 
   // logo配置
-  logo: "/go.svg",
+  logo: BlogIndexLogo,
 
   // 默认为 GitHub. 同时也可以是一个完整的 URL
   repo: "matrix-gopher/Matrix-Blog.github.io",

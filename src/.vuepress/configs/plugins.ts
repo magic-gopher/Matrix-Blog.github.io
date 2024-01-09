@@ -26,8 +26,7 @@ export const themePlugins: PluginsOptions = {
             // 舍弃那些不是从 Markdown 文件生成的页面
             if (!filePathRelative) return false
             // 舍弃zh/tool文件夹的页面
-            if (filePathRelative.startsWith('zh/tool/')) return false;
-            return true
+            return !filePathRelative.startsWith('zh/tool/');
         }
     },
 

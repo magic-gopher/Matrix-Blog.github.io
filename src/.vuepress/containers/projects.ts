@@ -1,3 +1,4 @@
+// @ts-ignore
 import yaml from 'js-yaml'
 import type { Token } from 'markdown-it'
 import { withBase } from '../utils/index.js'

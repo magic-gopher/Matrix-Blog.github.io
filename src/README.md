@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 个人主页
-heroImage: /assets/icon/gopher.svg
+heroImage: /gopher.svg
 heroText: 学习笔记
 tagline: ✨不定期更新笔记✨
 projects:
